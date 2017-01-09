@@ -1,0 +1,108 @@
+$color-primario: #EC364F;
+$color-texto-alternativo:white;
+$color-texto-derecha:grey;
+$tiempo-transicion:0.4s;
+$color-resaltar:lighten(purple, 20%);
+@mixin mayusuculas{
+  text-transform: uppercase;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  background-color:grey;
+}
+#rosa{
+  background-color:$color-primario ;
+  color:$color-texto-alternativo;
+  padding-right: 20px;
+  padding-left:10px;
+}
+
+a{
+  color: $color-texto-alternativo;
+}
+
+
+#calendario{
+  padding-left: 50px;
+}
+
+#container{
+  display:flex;
+  border-radius: 50px;
+  background-color:white;
+  align-items: stretch;
+  overflow: hidden;
+  width: 900px;
+  margin:auto;
+
+}
+
+#año{
+  text-align: right;
+  font-size: 20px;
+  color:$color-texto-derecha;
+}
+
+#meses{
+  display: flex;
+  justify-content: center;
+}
+
+#dias-semana{
+  font-size: 20px;
+  font-weight: bold;
+  color:$color-texto-derecha;
+}
+td{
+  padding:15px;
+}
+
+h1{
+  font-size: 120px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+  transition: font-size 0.4s;
+}
+
+h1:hover{
+  font-size: 130px;
+}
+#tuesday{
+  font-size: 20px;
+  text-align: center;
+  margin:0;
+  transition: font-size 0.4s;
+  @include mayusuculas;
+}
+
+#tuesday:hover{
+  font-size: 30px;
+
+}
+
+.dias-dic{
+  color:$color-texto-derecha
+}
+
+#day-17{
+  background-color: $color-primario;
+  height: 39px;
+  width: 10px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  color:$color-texto-alternativo;
+  font-weight: bold;
+  transition: background-color $tiempo-transicion;
+
+  &:hover{
+  background-color: $color-resaltar;
+}
+} 

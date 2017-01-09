@@ -1,0 +1,92 @@
+ol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li{
+  display:flex;
+  justify-content: space-around;
+  width: 514px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 23px 0 #e4e6e9;
+  align-items: center;
+  margin-bottom: 25px;
+
+}
+
+.mes-dia{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.6px;
+  flex-grow: 1;
+  
+}
+
+#num-dia{
+  font-family: 'Lato', sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.9px;
+  text-align: center;
+  color: #8c96ab;
+  margin: 15px;
+
+}
+
+h5{
+  margin:0;
+}
+
+h4{
+  width: 64px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #ff6260;
+  text-align: center;
+  margin:0;
+  padding-top: 5px;
+  color:white;
+  font-size: 24px;
+}
+
+
+#error{
+  color: #ff6260;
+  font-size:18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+
+}
+#image-info{
+  width: 100px;
+}
+
+#image-tick{
+  width: 50px;
+}
+
+#changes{
+  background-color: #3bde86;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+
+}
+

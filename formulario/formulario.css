@@ -1,0 +1,71 @@
+.cabecera{
+	display:flex;
+	justify-content: flex-end;
+	padding: 15px;
+	background: #0A72EA;
+
+}
+
+#name{
+	margin-right: 10px;
+}
+
+.name-subname{
+	display:flex;
+	justify-content: flex-end;
+	margin:10px;
+}
+
+.mail{
+	display: flex;
+	justify-content: flex-end;
+	margin:10px;
+}
+
+.re-email{
+	display: flex;
+	justify-content: flex-end;
+	margin:10px;
+}
+
+.password{
+	display: flex;
+	justify-content: flex-end;
+	margin:10px;
+}
+
+.nacimiento{
+	display: flex;	
+	justify-content: flex-end;
+	margin:10px;
+}
+
+.genero{
+	display:flex;
+	justify-content: flex-end;
+	margin: 10px;
+}
+
+.button{
+	border border-radius: 5px;
+	background-color: green;
+	color:white;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#condiciones{
+	max-width: 300px;
+}
+
+#button-container{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin:10px;
+}
+
+.fecha{
+	display:flex;
+	justify-content: flex-end;
+}

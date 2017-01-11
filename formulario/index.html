@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="formulario.css">
+	<title>Facebook</title>
+</head>
+<body>
+
+	<form action="/my-handling-form-page" method="post">
+		<div class="cabecera">
+
+			<label for="mail"> Your email </label>
+			<input type="email" id="mail-header" />
+			<label for="password">Password</label>
+			<input type="text" id="password-header" />
+			<button> Log in</button>
+		</div>
+	</form>	
+
+	<form action="/my-handling-form-page" method="post">
+
+		<div id="general">
+			<div class="name-subname">
+				<input id="name" type="text" placeholder="Name">
+				<input type="text" placeholder="Subname">
+			</div>
+
+			<div class="mail">
+				<input type="email" placeholder="E-mail">
+			</div>
+
+			<div class="re-email">
+				<input type="email" placeholder="Repeat E-mail">
+			</div>
+
+			<div class="password">
+				<input type="password" value="Password" id="password" />
+			</div>
+
+			<div class="fecha">
+
+				<div>
+					<select id="day"> 
+						<option>Day</option>
+					</select>
+				</div>
+
+				<div>
+
+					<select id="month">
+						<option>Month</option>
+					</select>
+				</div>
+
+				<div>
+					<select id="year">
+						<option>Year</option>
+					</select>
+				</div>
+
+			</div>
+
+			<div class="genero">
+				<input type="radio" name="genero" value="hombre" /> MUJER
+				<input type="radio" name="genero" value="mujer" /> HOMBRE
+			</div>
+
+			<div id="button-container">
+				<p id="condiciones">Al hacer clic en Terminado, aceptas las Condiciones y confirmas que has leído nuestra Política de datos, incluido el Uso de cookies.</p>
+				<button class="button"> Create an account</button>
+			</div>
+
+		</div>
+
+	</form>
+
+	<script type="text/javascript" src="formulario.js"></script>
+</body>
+</html>

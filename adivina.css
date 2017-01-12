@@ -1,0 +1,41 @@
+body{
+  background-color: #D1B8D7;
+}
+
+h1{
+ font-family: 'Indie Flower', cursive;
+ font-size: 50px;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin:0 auto;
+}
+
+#boton{
+  margin-top: 20px;
+  padding:10px;
+  font-family: 'Aref Ruqaa', serif;
+  background-color: #E8CB48;
+}
+
+#meter-numero{
+  padding:10px;
+  margin-top: 10px;
+  background-color: #E8CB48;
+
+
+}
+
+#label{
+  font-family: 'Aref Ruqaa', serif;
+}
+
+#mensajes{
+  width: 300px;
+  height: 100px;
+  margin-top: 30px;
+  background-color: #E8CB48;
+}

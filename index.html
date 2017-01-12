@@ -1,44 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" type="text/css" href="interactivo.css">
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="adivina.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
   <title></title>
 </head>
 <body>
-<div id="head">
-<img id="logo" src="/home/ana/Escritorio/interactivo/logo.svg" alt="logo">
-
-<ol>
-  <li class="user">
-    <a>User guide</a>
-    <ol class="desplegable">
-    <li>Configuring ESLint</li>
-    <li>Comand line interface</li>
-    <li>Rules</li>
-    <li>Formatter</li>
-    <hr>
-    <li>Migrating to v1.0.0</li>
-    <li>Migrating to v2.0.0</li>
-    <li>Migrating to v3.0.0</li>
-    <li>Integrations</li>
-    </ol>
-  </li>
-  <li>
-    <a>Developer guide</a>
-  </li>
-  <li>
-    <a>Blog</a>
-  </li>
-  <li>
-    <a>Demo</a>
-  </li>
-  <li>
-    <a>About</a>
-  </li>
-</ol>
+<div id="container">
+<h1>ADIVINA EL NÚMERO</h1>
+<label id="label" for="number">¿En qué número estás pensando?</label>
+<input id="meter-numero" type="text" name="number" value="">
+<button id="boton">Comprueba si has acertado</button>
+<p id="mensajes"></p>
 </div>
+<script type="text/javascript" src="adivinarnumero.js"></script>
 </body>
 </html>

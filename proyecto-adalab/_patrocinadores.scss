@@ -1,0 +1,42 @@
+$vertical-margin: 32px;
+
+
+
+.elemento{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: $vertical-margin;
+}
+
+@media screen and (min-width:768px){
+	.imagenes{
+		flex-direction:row;
+	}
+
+	.elemento{
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: $vertical-margin;
+	}
+
+	#logo-fontvella{
+		width: 156px;
+		
+	}
+
+	#logo-tomillo{
+		width: 174px;
+	}
+
+	#logo-sabadell{
+		width: 140px;
+	}
+}
+
+@media screen and (min-width: 920px){
+	.elemento{
+		margin-left: 40px;
+		margin-right: 40px;
+		margin-bottom: $vertical-margin;
+	}
+}

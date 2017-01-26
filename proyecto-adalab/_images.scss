@@ -1,0 +1,109 @@
+$width-logos-desktop:184px;
+
+.foto-testimonio {
+  display: block;
+  width: 217.2px;
+  @media screen and (min-width: 768px) { 
+    height: 217.2px;
+  }
+  @media screen and (min-width:1366px){
+    width: 293.6px;
+    height: 293.6px;
+  }
+}
+
+.icono-comillas {
+  display: block;
+  margin: 0 auto 32.4px;   
+}
+
+.fotos{
+  display:block;
+  margin:0 auto;
+}
+
+#logo-vanguardia{
+  width:177px;
+}
+
+#logo-elle{
+  width:116.5px;
+}
+
+#logo-efe{
+  width:87.6px;
+}
+@media screen and (min-width:768px){
+
+  .imagen-wrapper{
+    height: 64px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  #logo-vanguardia,
+  #logo-efe,
+  #logo-elle{
+    height:64px;
+  }
+}
+
+@media screen and (min-width:920px){
+
+  .imagen-wrapper{
+    height: 74px;
+  }
+
+  #logo-vanguardia,
+  #logo-efe,
+  #logo-elle{
+    height:74px;
+  }
+}
+  .imagenes{
+  padding: 0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  list-style: none;
+}
+#logo-sabadell{
+  width: 140px;
+}
+
+#logo-tomillo{
+  width: 174px;
+}
+
+#logo-fontvella{
+  width: 126px;
+
+}
+
+@media screen and (min-width:768px){
+  .imagenes{
+    flex-direction:row;
+  }
+
+  #logo-fontvella{
+    width: 156px;
+    
+  }
+
+  #logo-tomillo{
+    width: 174px;
+  }
+
+  #logo-sabadell{
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 920px){
+
+  #logo-fontvella,
+  #logo-sabadell{
+    width: $width-logos-desktop;
+  }
+}

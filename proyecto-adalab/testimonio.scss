@@ -1,0 +1,10 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  background-image:url(images/background-girl.png), url(images/background-landscape.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}

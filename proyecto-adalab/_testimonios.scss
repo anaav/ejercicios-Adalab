@@ -1,0 +1,31 @@
+
+ul {list-style: none;}
+
+.nombre  {
+  width: 214.6px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 16px auto 18.7px auto;
+  color:  #555555;
+}
+
+@media screen and (min-width: 768px) 
+{ 
+
+  .testimonio {
+   margin: 40px 14.9px 23.3px 14.9px;
+ }
+}
+
+@media screen and (min-width:1366px)
+{
+
+  .testimonio {
+   margin: 62px 20.2px 24.4px 20.2px;
+ }
+
+}
+
+
+

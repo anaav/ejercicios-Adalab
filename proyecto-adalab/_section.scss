@@ -1,0 +1,50 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container-testimonios {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  margin: 36px auto 0;
+  max-width: 375px;
+
+  @media screen and (min-width: 768px) { 
+
+    flex-direction: row;
+    align-items: flex-start; 
+    margin: auto;
+    max-width: 767px;
+  }
+
+
+  @media screen and (min-width: 1366px){
+
+    justify-content: center;
+    max-width: 1366px;
+  }
+}
+
+.titulo{
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 32px;
+
+  @media screen and (min-width: 920px){
+
+    margin-bottom: 40px;
+
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+.text-testimonio {
+  width: 214.6px;
+  margin: 23.3px auto 20.8px auto;
+
+  @media screen and (min-width: 768px) { 
+    margin-bottom: 20.8px;
+  }
+
+  @media screen and (min-width:1366px){
+    width: 290px;
+    font-size: 18px;
+  }
+}
+
+.parrafos-logos{
+  width:100%;
+  margin-top:20px;
+  margin-bottom:32px; 
+}
+
+
+
+

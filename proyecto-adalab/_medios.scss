@@ -1,0 +1,33 @@
+
+#lista{
+  list-style:none;
+  padding:0;
+}
+
+.elemento{
+  max-width:218px;
+}
+
+
+
+@media screen and (min-width:768px){
+
+  #lista{
+    display:flex;
+    flex-direction:row;
+  }
+
+  .elemento {
+    margin-left:10px;
+    margin-right:10px;
+  }
+}
+
+@media screen and (min-width:920px){
+
+  .elemento {
+    width:294px;  
+    margin-left:20px;
+    margin-right:20px;
+  }
+}
